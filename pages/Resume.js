@@ -1,5 +1,5 @@
 import styles from '../styles/Resume.module.scss'
-import MyResume from '../components/MyResume/myResume';
+import MyResume from '../components/MyResume/MyResume';
 
 const Resume = () => {
   return (
