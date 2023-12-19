@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+$color-primary: #828282;
+
+.cardContainer{
+   background:linear-gradient(45deg, #424242 50%, #292929 50%);
+   margin: 50px 0 0;
+   width: 300px;
+   text-align: center;
+}
+.icon{
+    color:$color-primary;
+    width: fit-content!important;
+    margin:20px auto;
+ }
+ .cardInfo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 600;
+    color: $color-primary; 
+    padding-bottom: 20px;
+ }
+
+ .circleBar{
+    text-align: center;
+   
+    .circularChart{
+       margin:0 20px 20px;
+       max-width: 100%;
+       max-height: 250px;
+       .circularBg{
+            fill: none;
+       }
+       .circle{
+          fill:none;
+          stroke-linecap: round;
+         
+       }
+      .percentage{
+          font-size: 1.3rem;
+          text-anchor: middle;
+          fill:#fff;
+          font-weight:bold;
+      }
+   
+    } 
+  
+
+ }
+
+ @media screen and (max-width: 350px) {
+   .cardContainer{
+      width: 90%;
+      margin-left: auto;
+      margin-right:auto ;
+   }
+   .icon{
+      width: 100%!important;
+   }
+ }
+ 

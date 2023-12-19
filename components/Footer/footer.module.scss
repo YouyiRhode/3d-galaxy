@@ -1,0 +1,20 @@
+.footer{
+  width: 100vw;
+  padding: 10px 0;
+  text-align: center;
+  background-color:#ffffff00;
+  font-size: 13px;
+    position: absolute;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 25px 25px rgb(0 0 0 / 40%);
+    border-top: 1px solid rgba(225,225,225,0.1);
+}
+
+
+@media screen and (max-width: 350px) {
+  .copyRight{
+    width: 90%;
+    margin: 0 auto;
+  }
+}

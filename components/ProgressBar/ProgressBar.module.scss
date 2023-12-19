@@ -1,0 +1,22 @@
+.loadbarContainer{
+    display: flex;
+    .loadbar{
+        width: 250px;
+        height: 13px;
+        border-radius: 25px;
+        background-color: #a0a0a0;
+        margin: 5px 0;
+        .progressive{
+            height: 13px;
+            border-radius: 25px;
+            background-color: #212121;
+        }
+    }
+    .percentageContainer{
+        display: line-block;
+        margin-left: 5px;
+    }
+}
+
+
+

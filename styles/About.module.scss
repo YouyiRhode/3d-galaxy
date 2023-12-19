@@ -1,0 +1,132 @@
+$bg-primary-color:#0f0f0f;
+$font-primary-color:#828282;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    .banner{
+      position: relative;
+      width: 100vw;
+      height: 500px;
+      background-image: url(../public/womanCoding.png);
+      background-position: center;
+      background-size: cover;
+    }
+}
+
+//-----------About Me banner context Section--------------  
+.avatar{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  width: 960px;
+  .avatarSectionLeft{
+    transform:translateY(calc(50% - 100px));
+    margin-right: 40px;
+    .avatarStyle{
+      border-radius: 50%;
+    }
+  }
+  .avatarSectionRight{
+    max-width: 450px;
+    color: $font-primary-color;
+    margin-left: 40px;
+      h2{
+        font-size: 2.3em;
+        margin-bottom: 0;
+      }
+      h5{
+        margin-top: 0;
+        font-size: 1em;
+        font-weight: 100;
+        font-style: italic;
+      }
+  }
+}
+
+//-----------Skills Section--------------  
+.skillContainer{
+  width: 100vw;
+  background-color: $bg-primary-color;
+  strong{
+    max-width: 1400px;
+    text-align: center;
+    margin: 50px auto 0;
+    // display: block;
+    display: none;
+    border-bottom: 0.5px solid rgba(192, 192, 192, 0.12);
+    position: relative;
+  
+    span{
+      width: inherit;
+      color: rgba(192, 192, 192, 0.5);
+      font-size: 1.2rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #0f0f0f;
+      padding: 0 20px;
+    }
+  
+  }
+}
+.skillSection{
+   max-width:1400px ;
+   min-height: 350px; 
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   padding-bottom: 100px;
+}
+@media screen and (max-width: 1400px){
+  .skillSection{
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container{
+    overflow-x: hidden;
+    .banner{
+    height:750px;
+    }
+  }
+    .skillSection{
+      flex-wrap: wrap;
+    }
+    .avatar{
+      padding:20px 0;
+      text-align: center;
+      flex-direction: column;
+      max-width: fit-content;
+      .avatarSectionLeft{
+        margin-right: 0;
+      }
+      .avatarSectionRight{
+        margin: 0 auto;
+      }
+    }
+    
+}
+@media screen and (max-width: 500px) {
+  .avatar{
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .avatar{
+    .avatarSectionRight{
+     width: 90%;
+    }
+  }
+}

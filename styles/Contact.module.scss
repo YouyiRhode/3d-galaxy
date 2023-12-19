@@ -1,0 +1,291 @@
+$bgContainer:#0f0f0f;
+$FontColor:#d9689f;
+$letterColor:#ffffff;
+$bgDark:#12183e;
+$bgLight:#282f58;
+
+@mixin fromStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    div{
+        width: 100%;
+        &:nth-child(1){
+            margin-right: 15px;
+        }
+        &:nth-child(2){
+            margin-left: 15px;
+        }
+    }
+    input{
+       width: 90%; 
+       background-color:#454545 ;
+       border: none;
+       height: 3rem;
+       margin-bottom: 1rem;
+       padding: .375rem .75rem;
+       border-radius: .25rem;
+       box-sizing: border-box;
+       color: white;
+        &:nth-child(1){
+            margin-right: 1rem;
+        }
+        &:nth-child(2){
+            margin-left: 1rem;
+        }
+    }
+}
+@mixin hoverStyle{
+    &:hover{
+        cursor: pointer;
+     }
+}
+@mixin center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+// -----banner --------
+
+
+
+.myBanner{
+    position: relative;
+    width: 100%;
+    height:458px;
+    background-image: url(../public/contact.png);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    // box-shadow: inset 0 0 0 100vw rgba(15,15,15,.87);
+    .colorLayer{
+        width: 100vw;
+        height: 100%;
+        background-image: linear-gradient(to right, rgb(230 93 131 / 81%), rgb(95 6 158 / 93%), rgb(14 108 175 / 89%));
+        h1{
+            color: white;
+            text-transform:capitalize;
+            font-size: 3rem;
+            @include center;
+            margin: 0;
+            padding:0;
+        }
+    }
+}
+// -----contact from -------
+.contactInfoContainer{
+    overflow-x: hidden;
+  background-color: $bgContainer;
+  padding: 120px 0;
+    .infoContainer{
+        display: flex;
+        flex-direction: row;
+        max-width:1140px;
+        margin: 0 auto;
+        justify-content: space-around;
+        h1{
+            color: $FontColor;
+        }
+        p{
+            color: $letterColor;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        button[type="submit"]{
+            background-color: $FontColor;
+            border: none;
+            color:$letterColor;
+            width: 8rem;
+            height: 2rem;
+            border-radius: .25rem;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform:uppercase;
+            transition: 1s;
+            &:hover{
+                color:$FontColor;
+                background-color: $letterColor;
+                cursor: pointer;
+            }
+        }
+    }
+  
+}
+
+.left{
+    width: 60%;
+    .myForm{
+        width: 100%;
+        box-sizing: border-box;
+      .formBasicName{
+         @include fromStyle;
+      }
+      .formBasicEmailPhone{
+         @include fromStyle;
+      }
+      .formBasicMessage{
+        textarea{
+            // width: calc(90% + 30px);
+            width:100%;
+            background-color:#454545;
+            height: 200px;
+            margin-bottom: 1rem;
+            padding: .375rem .75rem;
+            border-radius: .25rem;
+            box-sizing: border-box;
+            color: white;
+        }    
+      }
+    }
+}
+
+.right{
+    width: 30.01%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-around;
+    .contactInfo{
+       .icons{
+            margin-right: 10px;
+            @include hoverStyle;
+        }
+        p{
+            display: inline-block;
+            @include hoverStyle;
+        }
+    }
+}
+.followUs{
+    @include hoverStyle;
+}
+
+@media screen and (max-width: 1280px) {
+    .contactInfoContainer{
+        .infoContainer{
+            flex-direction: column-reverse;
+            max-width: 684px;
+            .leftTitle{
+                text-align: center; 
+            }
+            .leftP{  
+                width: 100%;
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: 2.5rem
+            }
+        }
+    }
+    .left{
+        width: 100%;
+        margin: 50px auto 0;
+    }
+    .right{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 1280px){
+    .left{
+        .myForm{
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}
+@media screen and (max-width: 960px){
+    .myBanner{
+        height: 300px;
+    }
+    .contactInfoContainer{
+        padding-top:30px;
+    }
+}
+@media screen and (max-width: 640px){
+    .left{
+        .myForm{
+            .formBasicName{
+                flex-direction: column;
+                    input{
+                        width: 100%;
+                        &:nth-child(1){
+                            margin-right: 0;
+                        }
+                        &:nth-child(2){
+                            margin-left: 0;
+                     }
+                 }
+          }
+          .formBasicEmailPhone{
+            flex-direction: column;
+                 input{
+                    width: 100%;
+                    &:nth-child(1){
+                        margin-right: 0;
+                    }
+                     &:nth-child(2){
+                        margin-left: 0;
+                 }
+             }
+         }
+         .formBasicMessage{
+            textarea{
+                width:100%;
+                
+            }    
+          }
+        }
+    }
+    .contactInfoContainer{
+        .infoContainer{
+              button[type="submit"]{
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+              }
+            }
+        }
+ 
+}
+
+@media screen and (max-width: 600px){
+    .right{
+        width: fit-content;
+        flex-direction: column;
+        text-align: center;
+        .contactInfo{
+            width: fit-content;
+         }
+    }
+    
+           
+}
+@media screen and (max-width: 535px){
+    .myBanner{
+        .colorLayer{
+            h1{
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 445px){
+    .myBanner{
+        .colorLayer{
+            h1{
+                font-size: 2rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 361px){
+    .myBanner{
+        .colorLayer{
+            h1{
+                font-size: 1.7rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+$btn-hover-bg-color:#313131;
+$btn-hover-font-color:white;
+$btn-bg-color:white;
+
+.myFilter{
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 100px;
+    display:none;
+    button{
+        width: fit-content;
+        height: 35px;
+        border-radius: 2px;
+        border:none;
+        margin-right: 8px;
+        padding: 10px;
+        background: $btn-bg-color;
+        &:hover{
+            cursor: pointer;
+            animation: bg-color .5s ease forwards;
+            @keyframes bg-color {
+                to{
+                    background-color: $btn-hover-bg-color;
+                    color: $btn-hover-font-color;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .myFilter{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 320px;
+        padding-top: 30px;
+        justify-content: center;
+        display:none;
+        button{
+            margin-bottom: 2em; 
+        }
+    }
+  }

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Inspiration&display=swap');
+$navBgColor:#313131;
+$navFontColor:#ffffff;
+$navHoverColor:grey;
+
+
+@mixin linkStyle {
+  font-weight: 100;
+  color: $navFontColor;
+  text-transform: uppercase;
+}
+
+.navContainer{
+    color: $navFontColor;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    backdrop-filter: blur(10px);
+     .navbar{
+      a{
+        margin-right:30px;
+        text-transform:capitalize;
+        font-size: 1.1rem;
+       @include linkStyle;
+        &:hover{
+          border-top: 2px solid $navHoverColor;
+        } 
+      }
+    }
+}
+  .navInner{
+      max-width: 960px;
+      margin: 0 auto;
+      text-align: center;
+      .logo{
+        display: inline-block;
+        margin-right: 40px;
+       
+        h1{
+          margin-top: .5em;
+          margin-bottom: .5em;
+          font-family: 'Comforter Brush', cursive;
+          font-size: 2em;
+          letter-spacing: 6px;
+          font-weight: 100;
+        }
+      }
+      .navbar{
+        display: inline-block;
+      }
+      .mobileMenuIcon{
+        display: none;
+      }
+  }
+@media screen and (max-width: 1020px) {
+  .navInner{
+    .logo{
+      margin-right:0;
+    }
+    .navbar{
+      display: none;
+    }
+    .mobileMenuIcon{
+      display: block;
+    }
+  }
+  
+// ------- mobile menu ---------
+  .mobileMenuIcon{
+    display: block;
+    position: absolute;
+    top:50%;
+    right: 1.5rem;
+    transform: translateY(-50%);
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+}
+
+
+
+
+
+
+

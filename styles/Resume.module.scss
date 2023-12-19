@@ -1,0 +1,18 @@
+$bg:#292826;
+$linkColor:#fff;
+.pageContainer{
+    
+    background: $bg;
+    padding-top: 77px;
+    .resumeStyle{
+        text-align: center;
+        padding-top: 100px;
+        a{
+            height: 100vh;
+            background: $bg;
+            color: $linkColor;
+            text-decoration: underline;
+            font-size: 1.3em;
+        }
+    }
+}

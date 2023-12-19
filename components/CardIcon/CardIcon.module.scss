@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+$color-primary: #828282;
+
+
+.icon{
+   color:$color-primary;
+   width: fit-content!important;
+   margin:20px auto;
+}
+.cardInfo{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.2em;
+   text-align: center;
+   font-weight: 600;
+   color: $color-primary;
+}

@@ -1,0 +1,26 @@
+[
+      {
+        "id":1,
+        "title":"web development",
+        "websiteName":"portfolio website",
+        "descrition":"This is the first website that I built with React.js and Next.js. It is also my protfolio website",
+        "tags":["#webDesign","#scss","#ReactJS","#NextJS"],
+        "thumbnail_img_src":"/portfolio.jpg",
+        "video_src":"/video/videos for portfolio/CrazyRichAsians.mp4",
+        "url":"https://Vivianrhode.com",
+        "width":200,
+        "height":250
+    },
+    {
+        "id":2,
+        "title":"web development",
+        "websiteName":" Movie Search app",
+        "descrition":"I built this website with ReactJS, NextJS and the movie database API. Type Your Favorite actors and you will find out all his/her movies",
+        "tags":["#webDesign","#scss","#ReactJS","#NextJS","#REST API"],
+        "thumbnail_img_src":"/searchmov.jpg",
+        "video_src":"/video/videos for portfolio/CrazyRichAsians.mp4",
+        "url":"https://movie-search-youyirhode.vercel.app/",
+        "width":200,
+        "height":250
+    }
+]

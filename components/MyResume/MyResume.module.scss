@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500&display=swap');
+$header_bg:#292f35;
+$content_bg:#f0eff0;
+$tilte_color:#bf6b4a;
+
+.pageContainer{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-family: 'Raleway', sans-serif;
+    padding: 50px 0 120px;
+    .resumeHeader{
+        width: 100%;
+        height: 320px;
+        background-color:$header_bg;
+        text-align: center;
+        position: relative;
+        .beforeImage{
+            width: 100%;
+            height: 150px;
+        }
+        .infoContainer{
+            color:$tilte_color;
+            h2{
+                width: 100%;
+                font-size: 2.5em;
+                position: absolute;
+                top: 80px;
+                left: 50%;
+                right: 50%;
+                transform: translate(-50%,-50%);
+                margin-bottom: 0;
+            }
+            h3{
+                margin-top: 0;
+                margin-bottom: 38px;
+            }
+            .infoleft{
+                width: 194px;
+                position:absolute;
+                bottom: 25px;
+                left: 15%;
+                text-align: right;
+                p{
+                    display: inline-block;
+                    margin-bottom: 10px;
+                    margin-left: 10px;
+                }
+                .addressOne{
+                    display: none;
+                }
+                .phoneOne{
+                    display: none;
+                }
+                
+            }
+            .infoRight{
+                width: 215px;
+                position:absolute;
+                right: 15%;
+                bottom: 25px;
+                p{
+                    display: inline-block;
+                    margin-bottom: 10px;
+                    margin-right: 10px;
+                }
+            }
+            .myInfo{
+                color: white;
+            }
+
+        }
+        .image{
+            border-radius: 50%;
+            border: 8px solid $content_bg !important;
+         }
+
+    }
+
+    .resumeContent{
+        background-color: $content_bg;
+        padding: 100px 0;
+        .workExprience{
+            h1{
+                text-align: center;
+                color: $tilte_color;
+                font-size: 1.8em;
+            }
+            .workExprienceSection{
+                display: flex;
+                padding: 0 80px;
+                justify-content:space-between;
+                h3{
+                    margin-bottom: 5px;
+                }
+                h3 + p{
+                    margin-top: 0;
+                }
+                p > a {
+                    text-decoration: underline;
+                    font-style: italic;
+                }
+                .contentLeft{
+                    text-align: center;
+                    // margin-right: 20px;
+                    // width: 50%;
+                }
+                .contentRight{
+                    margin-left: 20px;
+                    width: 50%;
+                }
+            }
+        }
+        .eduAndSkillsContainer{
+            display: flex;
+            padding: 0 80px;
+            justify-content:center;
+            h3{
+                margin-bottom: 5px;
+            }
+            h3 + p{
+                margin: 0 auto;
+                font-style:italic;
+            }
+            p + p{
+                margin-top:15px;
+                line-height: 1.5em;
+            }
+            .educationInfo{
+                margin-right: 20px; 
+                width:50%;
+                text-align: right;
+                h1{
+                    text-align: right;
+                    color: $tilte_color;
+                    font-size: 1.8em;
+                }
+            }
+            .skills{
+                margin-left: 20px;
+                width:50%;
+                h1{
+                    text-align: left;
+                    color: $tilte_color;
+                    font-size: 1.8em;
+                }
+                ul{
+                    padding-left: 20px;
+                }
+               
+            }
+        }
+        .sectionThree{
+          padding: 0 80px;
+          margin-top: 35px;
+          div{
+                padding: 0 20px;
+                h1{
+                    color: $tilte_color;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px){
+    .pageContainer{
+        padding-top: 0;
+        .resumeHeader{
+            height: 400px;
+           .beforeImage{
+                height: 0;
+            }
+            .infoContainer{
+                color:$tilte_color;
+                h2{
+                    width: 100%;
+                    position:static;
+                    transform: none;
+                    margin:auto;
+                    padding-top: 20px;
+                }
+                h3{
+                    margin-top: 0;
+                    margin-bottom: 10px
+                }
+                .infoleft{
+                    position:static;
+                    margin: auto;
+                    text-align: center;
+                    p{
+                        display: inline-block;
+                        margin-bottom: 10px;
+                        margin-left: 10px;
+                    }
+                    .addressOne{
+                        display: inline-block;
+                    }
+                    .phoneOne{
+                        display: inline-block;
+                    }
+                    .address{
+                        display: none;
+                    }
+                    .phone{
+                        display: none;
+                    }
+                    
+                }
+                .infoRight{
+                    position:static;
+                    margin: auto;
+                    p{
+                        display: inline-block;
+                        margin-bottom: 10px;
+                        margin-right: 10px;
+                    }
+                }
+                .myInfo{
+                    color: white !important;
+                }
+    
+            }
+            .image{
+                border-radius: 50%;
+                border: 8px solid $content_bg !important;
+             }
+    
+        }
+        .resumeContent{
+            .workExprience{
+                .workExprienceSection{
+                    display: block;
+                    padding: 0 80px;
+                    text-align: center;
+                    .contentLeft{
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .contentRight{
+                        width: 100%;
+                        margin-left: 0;
+                    }
+                }
+            }
+
+            .eduAndSkillsContainer{
+                display: block;
+                padding: 0 80px;
+                .educationInfo{
+                    width:100%;
+                    text-align: center;
+                    h1{
+                        text-align: center;
+                    }
+                }
+                .skills{
+                   width:100%;
+                   margin-left: 0;
+                   h1{
+                        text-align: center;
+                     }
+                     ul{
+                        padding-left: 0;
+                        width: max-content;
+                        margin: 0 auto;
+                     }
+                }
+            }
+
+            .sectionThree{
+                div{
+                      padding:0;
+                  }
+            }
+
+        }   
+    }
+}
+
+$container_padding_600px: 0 20px;
+@media screen and (max-width: 600px){
+    .pageContainer{
+        .resumeHeader{
+            
+            .infoContainer{
+                .myInfo{
+                    color: white !important;
+                }
+            }
+           
+    
+        }
+
+        .resumeContent{
+            // padding: 130px 0;
+            .workExprience{
+                .workExprienceSection{
+                    padding: $container_padding_600px;
+                }
+            }
+
+            .eduAndSkillsContainer{
+                display: block;
+                padding: $container_padding_600px;
+                .skills{
+                   width:100%;
+                   h1{
+                        text-align: center;
+                     }
+                     ul{
+                        padding-left: 0;
+                        width: max-content;
+                        margin: 0 auto;
+                     }
+                }
+            }
+
+            .sectionThree{
+                padding: $container_padding_600px;
+            }
+        }   
+    }
+}

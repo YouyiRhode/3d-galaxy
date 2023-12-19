@@ -1,0 +1,134 @@
+
+
+.bgContainer{
+  width: 100vw;
+  min-height: 100vh;
+  background-position: center;
+  background-size:cover;
+  position: relative;
+  h1{
+  
+    font-size: 3em;
+    color: white;
+    margin-top: 0;
+    font-weight: 300;
+  }
+  h3{ 
+  
+    margin-top: 0;
+    padding-top: 200px;
+    max-width:666px;
+    margin: 0 auto;
+    svg{
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%,-40%);
+      width: 40rem;
+      margin-bottom:52px;
+    }
+  }
+}
+.homeBtn{
+  width:200px;
+  height:40px;
+  position: absolute; 
+  top: calc(50% + 40px);
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation: show .5s ease 2.1s forwards;
+  visibility: hidden;
+  &:hover{
+    cursor: pointer;
+  }
+}
+@keyframes show {
+  to {
+    visibility: visible;
+  }
+}
+.homeHeader{
+   position: absolute;
+   top: calc(50% - 52px);
+   left: 50%;
+   transform: translate(-50%,-70%);
+  
+}
+.path1{
+  stroke-dasharray: 535px;
+  stroke-dashoffset:535px;
+  stroke:url(#stroke-color);
+  animation: line .5s ease .2s forwards ;
+}
+.path2{
+  stroke-dasharray: 310px;
+  stroke-dashoffset:310px;
+  stroke:url(#stroke-color);
+  animation: line .5s ease .5s forwards;
+}
+.path3{
+  stroke-dasharray: 199px;
+  stroke-dashoffset:199px;
+  stroke:url(#stroke-color);
+  animation: line .5s ease .8s forwards;
+}
+.path4{
+  stroke-dasharray: 340px;
+  stroke-dashoffset:340px;
+  stroke:url(#stroke-color);
+  animation: line .5s ease 1.1s forwards;
+}
+.path5{
+  stroke-dasharray: 378px;
+  stroke-dashoffset:378px;
+  stroke:url(#stroke-color);
+  animation: line .5s ease 1.4s forwards;
+}
+.path6{
+  stroke-dasharray: 504px;
+  stroke-dashoffset:504px;
+  stroke:url(#stroke-color);
+  animation: line .5s ease 1.7s forwards;
+}
+.path7{
+  stroke-dasharray: 310px;
+  stroke-dashoffset:310px;
+  stroke:url(#stroke-color);
+  animation: line .5s ease 2s forwards;
+}
+.content {
+  height: 100vh;
+  background-color: #0f0f0f;
+}
+@keyframes line {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes tianMan {
+ 
+  to {
+    fill:white;
+  }
+}
+@media screen and (max-width: 1020px) {
+     
+    .bgContainer{
+      h3{
+        svg{
+          width: 30rem;
+        }
+      }
+    }
+}
+
+@media screen and (max-width: 800px) {
+     
+  .bgContainer{
+  h3{
+    svg{
+      width: 21rem;
+    }
+  }
+  }
+}

@@ -1,0 +1,53 @@
+$navFontColor:#ffffff;
+
+@media screen and (max-width: 1020px) {
+    .mobileDropDownMenu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #313131;
+    }
+        
+        .mobileMenu{
+          svg{
+            position: absolute;
+            right: 1.5rem;
+            top:1.5rem;
+            z-index: 11;
+            &:hover{
+              cursor: pointer;
+            }
+          }
+          .myLink{
+            margin-top: 5.5rem;
+          }
+          a{
+            font-size: 1.5rem;
+            border-bottom: 1px solid #424242;
+            margin-right: 0;
+            padding: 0 0 1rem;
+            margin: 1rem 3rem 0;
+            letter-spacing: 0.45rem;
+            font-weight: 100;
+            color: $navFontColor;
+            text-transform: uppercase;
+            
+          }
+        }
+    }
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  

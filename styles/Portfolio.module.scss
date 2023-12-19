@@ -1,0 +1,15 @@
+$bg-primary-color:#0f0f0f;
+
+.portfolioCotainer{
+    width:100vw;
+    background:$bg-primary-color;
+    padding: 60px 0;
+    height: calc(100vh - 120px);
+}
+
+@media screen and (max-width: 639px){
+    .portfolioCotainer{
+       height:auto;
+    }
+}
+

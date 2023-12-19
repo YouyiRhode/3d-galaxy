@@ -1,0 +1,67 @@
+[
+    {
+        "size":"8x",
+        "btnName":"HTML",
+        "cardInfo":"HTML5",
+        "circleSize": 200,
+        "progress": 90,
+        "strokeWidth": 14,
+        "circleOneStroke":"#7ea9e1",
+        "circleTwoStroke":"#0263e1",
+        "skillType":"Developing Skills"
+      },
+      {
+        "size":"8x",
+        "btnName":"CSS",
+        "cardInfo":"CSS3",
+        "circleSize": 200,
+        "progress": 85,
+        "strokeWidth": 14,
+        "circleOneStroke":"#db896b",
+        "circleTwoStroke":"#db3a00",
+        "skillType":"Developing Skills"
+      },
+      {
+        "size":"8x",
+        "btnName":"JS",
+        "cardInfo":"Javascript",
+        "circleSize": 200,
+        "progress": 77,
+        "strokeWidth": 14,
+        "circleOneStroke":"#925390",
+        "circleTwoStroke":"#92008d",
+        "skillType":"Developing Skills"
+      },
+      {
+        "size":"8x",
+        "btnName":"React",
+        "cardInfo":"React",
+        "circleSize": 200,
+        "progress": 68,
+        "strokeWidth": 14,
+        "circleOneStroke":"#a9aa8b",
+        "circleTwoStroke":"#a7aa00",
+        "skillType":"Developing Skills"
+      },
+      {
+        "size":"8x",
+        "btnName":"Figma",
+        "cardInfo":"Figma",
+        "circleSize": 200,
+        "progress": 70,
+        "strokeWidth": 14,
+        "circleOneStroke":"#0a908e",
+        "circleTwoStroke":"#3ffffd"
+      },
+     {
+        "size":"8x",
+        "btnName":"photoshop",
+        "cardInfo":"photoshop",
+        "circleSize": 200,
+        "progress": 50,
+        "strokeWidth": 14,
+        "circleOneStroke":"#358138",
+        "circleTwoStroke":"#69ff70",
+        "skillType":"Design Skills"
+      }
+]
