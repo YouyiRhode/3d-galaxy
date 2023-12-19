@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import styles from './PortfolioCard.module.scss';
-import ImgPopup from '../ImgPopup/ImgPopup';
 import React,{useState,useEffect} from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -32,15 +31,20 @@ const PortfolioCard = ({datas}) => {
                   <React.Fragment key={data.id}>
                     <div className={styles.displayCard} data-aos="flip-left" data-aos-offset="10" data-aos-once="true" >
                        <div className={styles.imgContainer}>
-                          <Image 
-                              className ={styles.myImage} 
-                              src={data.thumbnail_img_src} 
-                              width={200} 
-                              height={250}
-                              priority={true} 
-                              onClick={() =>{getImage(data)}}
-                              alt=" "
-                          />
+                         <a href={data.url}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <Image 
+                                className ={styles.myImage} 
+                                src={data.thumbnail_img_src} 
+                                width={200} 
+                                height={250}
+                                priority={true} 
+                                onClick={() =>{getImage(data)}}
+                                alt=" "
+                            />
+                          </a>
                         </div>
                         <h1>{data.websiteName} </h1>
                         <button 
@@ -49,6 +53,7 @@ const PortfolioCard = ({datas}) => {
                           <a href={data.url}
                             target="_blank"
                             rel="noreferrer"
+                            style={{width:'100%', height:'100%'}}
                           >
                            view
                           </a>
@@ -58,12 +63,7 @@ const PortfolioCard = ({datas}) => {
                   </React.Fragment >
               )})
             }
-            <ImgPopup 
-                trigger={isPop} 
-                closeImg={closeImg} 
-                image={imgSrc}
-            />
-          </div>
+           </div>
         </>
     );
 }
