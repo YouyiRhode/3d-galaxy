@@ -22,5 +22,77 @@
         "url":"https://movie-search-youyirhode.vercel.app/",
         "width":200,
         "height":250
+    },  
+      {
+        "id":3,
+        "title":"Crazy Rich Asians",
+        "websiteName":" Crazy Rich Asians",
+        "descrition":"I worked on the front-end. I Was So Happy To Work In The movie Industry",
+        "tags":["#HTML","#CSS","#JavaScript","#FrontEnd"],
+        "thumbnail_img_src":"/thumbnail_imgs/crazy_rich_asians.png",
+        "video_src":"/video/CrazyRichAsians.mp4",
+        "url":"https://www.crazyrichasiansmovie.com/",
+        "width":800,
+        "height":533
+    },
+    {
+        "id":4,
+        "title":"Dead Alliance",
+        "websiteName":" Dead Alliance",
+        "descrition":"Most of my work is on the front end. I learnd a lot of this project and I was so happy to work in the game industry",
+        "tags":["#HTML","#CSS","#JavaScript","#FrontEnd"],
+        "thumbnail_img_src":"/thumbnail_imgs/dead_aliance.jpg",
+        "video_src":"/video/DeadAlliance.mp4",
+        "url":"/video/DeadAlliance.mp4",
+        "width":800,
+        "height":533
+    },
+    {
+        "id":5,
+        "title":"Extinction",
+        "websiteName":" Extinction",
+        "descrition":"It was so awsome to work on this project. I did a lot of front-end task. most",
+        "tags":["#HTML","#CSS","#JavaScript","#FrontEnd"],
+        "thumbnail_img_src":"/thumbnail_imgs/Extinction.jpg",
+        "video_src":"/video/Extinction.mp4",
+        "url":"/video/Extinction.mp4",
+        "width":800,
+        "height":533
+    },
+    {
+        "id":6,
+        "title":"Headlands",
+        "websiteName":"Headlands",
+        "descrition":"This is my first project for the medical industry. I worked on the front_end. ",
+        "tags":["#HTML","#CSS","#JavaScript","#JQuery","#FrontEnd"],
+        "thumbnail_img_src":"/thumbnail_imgs/headlands.jpg",
+        "video_src":"/video/Headlands.mp4",
+        "url":"https://headlandsresearch.com/",
+        "width":800,
+        "height":533
+    },
+    {
+        "id":7,
+        "title":"MurrayGarret Photography Website",
+        "websiteName":" MurrayGarret Photography Website",
+        "descrition":"Skills Used: HTML, CSS",
+        "tags":["#HTML","#CSS","#JavaScript","#JQuery","#FrontEnd"],
+        "thumbnail_img_src":"/thumbnail_imgs/MurrayGarret.webp",
+        "video_src":"/video/MurrayGarret.mp4",
+        "url":"/video/MurrayGarret.mp4",
+        "width":800,
+        "height":533
+    },
+    {
+        "id":8,
+        "title":"Rampage",
+        "websiteName":" Rampage",
+        "descrition":"This was a big movie project. I worked on the front end team and we used a lot HTML,CSS and some JavaScript to built this beautiful website.",
+        "tags":["#HTML","#CSS","#JavaScript","#JQuery","#FrontEnd"],
+        "thumbnail_img_src":"/thumbnail_imgs/Rampage.webp",
+        "video_src":"/video/Rampage.mp4",
+        "url":"",
+        "width":800,
+        "height":533
     }
 ]
