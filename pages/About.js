@@ -24,7 +24,7 @@ const About = (props) => {
       btnName:'HTML',
       cardInfo:'HTML5',
       circleSize: 200,
-      progress: 90,
+      progress: 98,
       strokeWidth: 14,
       circleOneStroke:'#7ea9e1',
       circleTwoStroke:'#0263e1',
@@ -36,7 +36,7 @@ const About = (props) => {
       btnName:'CSS',
       cardInfo:'CSS3',
       circleSize: 200,
-      progress: 85,
+      progress: 98,
       strokeWidth: 14,
       circleOneStroke:'#db896b',
       circleTwoStroke:'#db3a00',
@@ -48,7 +48,7 @@ const About = (props) => {
       btnName:'JS',
       cardInfo:'Javascript',
       circleSize: 200,
-      progress: 77,
+      progress: 90,
       strokeWidth: 14,
       circleOneStroke:'#925390',
       circleTwoStroke:'#92008d',
@@ -60,7 +60,7 @@ const About = (props) => {
       btnName:'React',
       cardInfo:'React',
       circleSize: 200,
-      progress: 68,
+      progress: 92,
       strokeWidth: 14,
       circleOneStroke:'#a9aa8b',
       circleTwoStroke:'#a7aa00',
@@ -84,7 +84,7 @@ const About = (props) => {
       btnName:'Photoshop',
       cardInfo:'Photoshop',
       circleSize: 200,
-      progress: 60,
+      progress: 80,
       strokeWidth: 14,
       circleOneStroke:'#0a1b2e',
       circleTwoStroke:'#459af9',
@@ -126,8 +126,11 @@ const About = (props) => {
             <div className={styles.skillSection} >
               <MyCard {...circleBarOne} />
               <MyCard {...circleBarTwo} />
-              <MyCard {...circleBarThree} />
-              <MyCard {...circleBarFour} />
+             
+            </div>
+            <div className={styles.skillSection} >
+                <MyCard {...circleBarThree} />
+                <MyCard {...circleBarFour} />
             </div>
               <strong>
                 <span>Design Skills</span>
