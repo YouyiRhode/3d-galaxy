@@ -55,6 +55,7 @@ $font-primary-color:#828282;
 .skillContainer{
   width: 100vw;
   background-color: $bg-primary-color;
+  padding-bottom: 100px;
   strong{
     max-width: 1400px;
     text-align: center;
@@ -85,7 +86,7 @@ $font-primary-color:#828282;
    display: flex;
    justify-content: space-between;
    flex-direction: row;
-   padding-bottom: 100px;
+   
 }
 @media screen and (max-width: 1400px){
   .skillSection{
