@@ -23,18 +23,7 @@
         "width":200,
         "height":250
     },  
-    {
-        "id":3,
-        "title":"React app",
-        "websiteName":" match game",
-        "descrition":"It's essentially a basic matching game. I've introduced features such as adjustable grid sizes, numbers along with their ranges, and the alphabet in both lowercase and uppercase",
-        "tags":["#webDesign","#ReactJS"],
-        "thumbnail_img_src":"/searchmov.jpg",
-        "video_src":" ",
-        "url":"https://youyirhode.github.io/myMatchGame/",
-        "width":200,
-        "height":250
-    }, 
+   
     {
         "id":3,
         "title":"Dead Alliance",
