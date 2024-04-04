@@ -23,20 +23,8 @@
         "width":200,
         "height":250
     },  
-      {
-        "id":3,
-        "title":"Crazy Rich Asians",
-        "websiteName":" Crazy Rich Asians",
-        "descrition":"I worked on the front-end. I Was So Happy To Work In The movie Industry",
-        "tags":["#HTML","#CSS","#JavaScript","#FrontEnd"],
-        "thumbnail_img_src":"/thumbnail_imgs/crazy_rich_asians.png",
-        "video_src":"/video/CrazyRichAsians.mp4",
-        "url":"https://www.crazyrichasiansmovie.com/",
-        "width":800,
-        "height":533
-    },
     {
-        "id":4,
+        "id":3,
         "title":"Dead Alliance",
         "websiteName":" Dead Alliance",
         "descrition":"Most of my work is on the front end. I learnd a lot of this project and I was so happy to work in the game industry",
@@ -48,7 +36,7 @@
         "height":533
     },
     {
-        "id":5,
+        "id":4,
         "title":"Extinction",
         "websiteName":" Extinction",
         "descrition":"It was so awsome to work on this project. I did a lot of front-end task. most",
@@ -60,7 +48,7 @@
         "height":533
     },
     {
-        "id":6,
+        "id":5,
         "title":"Headlands",
         "websiteName":"Headlands",
         "descrition":"This is my first project for the medical industry. I worked on the front_end. ",
@@ -72,7 +60,7 @@
         "height":533
     },
     {
-        "id":7,
+        "id":6,
         "title":"MurrayGarret Photography Website",
         "websiteName":" MurrayGarret Photography Website",
         "descrition":"Skills Used: HTML, CSS",
@@ -84,7 +72,7 @@
         "height":533
     },
     {
-        "id":8,
+        "id":7,
         "title":"Rampage",
         "websiteName":" Rampage",
         "descrition":"This was a big movie project. I worked on the front end team and we used a lot HTML,CSS and some JavaScript to built this beautiful website.",
