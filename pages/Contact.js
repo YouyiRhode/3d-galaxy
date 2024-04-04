@@ -50,8 +50,7 @@ const Contact = () => {
                                 <div className={styles.followUs}>
                                     <h1>Follow Me</h1>
                                     <p><a href='https://www.facebook.com'>Facebook</a></p>
-                                    <p>Instagram</p>
-                                    <p>Vive</p>
+                                    <p><a href='https://www.linkedin.com/in/vivian-rhode-933abb188/'>Linkedin</a></p>
                                 </div>
 
                                
