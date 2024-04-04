@@ -20,7 +20,6 @@ $navHoverColor:grey;
      .navbar{
       a{
         margin-right:30px;
-        // text-transform:capitalize;
         font-size: 1.1rem;
        @include linkStyle;
         &:hover{
