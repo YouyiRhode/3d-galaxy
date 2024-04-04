@@ -49,7 +49,7 @@ const Contact = () => {
                               
                                 <div className={styles.followUs}>
                                     <h1>Follow Me</h1>
-                                    <p>Facebook</p>
+                                    <p><a href='https://www.facebook.com'>Facebook</a></p>
                                     <p>Instagram</p>
                                     <p>Vive</p>
                                 </div>
