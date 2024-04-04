@@ -4,7 +4,7 @@ import React from 'react';
 
  const MobileMenu = ({display,closeClick,handleLinkClick}) => {
 
-    const titles = [ 'about', 'portfolio', 'contact'];
+    const titles = [ 'About', 'Portfolio', 'Contact'];
     const myHome = 'home'
      return ( 
          <>
