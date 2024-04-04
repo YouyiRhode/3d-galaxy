@@ -90,7 +90,7 @@
         "websiteName":" Rampage",
         "descrition":"This was a big movie project. I worked on the front end team and we used a lot HTML,CSS and some JavaScript to built this beautiful website.",
         "tags":["#HTML","#CSS","#JavaScript","#JQuery","#FrontEnd"],
-        "thumbnail_img_src":"/thumbnail_imgs/Rampage.png",
+        
         "video_src":"/video/Rampage.mp4",
         "url":"",
         "width":800,
