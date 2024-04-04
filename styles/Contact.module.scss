@@ -93,7 +93,7 @@ $bgLight:#282f58;
             display: inline-block;
             margin-right: 10px;
             a{
-                color: $letterColor;
+              color:#ffffff42;
             }
         }
         button[type="submit"]{
@@ -163,9 +163,7 @@ $bgLight:#282f58;
 }
 .followUs{
     @include hoverStyle;
-    a:hover{
-        color:#ffffff42;
-    }
+
 }
 
 @media screen and (max-width: 1280px) {
