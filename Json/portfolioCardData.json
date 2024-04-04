@@ -22,10 +22,22 @@
         "url":"https://moviesearch-vivianrhode.vercel.app/",
         "width":200,
         "height":250
+    }, 
+     {
+        "id":3,
+        "title":"React App",
+        "websiteName":" Match Game ",
+        "descrition":" It's essentially a basic matching game.I've introduced features such as adjustable grid sizes, numbers along with their ranges, and the alphabet in both lowercase and uppercase",
+        "tags":["#ReactJS"],
+        "thumbnail_img_src":"/matchGame.png",
+        "video_src":"",
+        "url":"https://vivianrhode.github.io/theMatchGame/",
+        "width":200,
+        "height":250
     },  
    
     {
-        "id":3,
+        "id":4,
         "title":"Dead Alliance",
         "websiteName":" Dead Alliance",
         "descrition":"Most of my work is on the front end. I learnd a lot of this project and I was so happy to work in the game industry",
@@ -37,7 +49,7 @@
         "height":533
     },
     {
-        "id":4,
+        "id":5,
         "title":"Extinction",
         "websiteName":" Extinction",
         "descrition":"It was so awsome to work on this project. I did a lot of front-end task. most",
@@ -49,7 +61,7 @@
         "height":533
     },
     {
-        "id":5,
+        "id":6,
         "title":"Headlands",
         "websiteName":"Headlands",
         "descrition":"This is my first project for the medical industry. I worked on the front_end. ",
@@ -61,7 +73,7 @@
         "height":533
     },
     {
-        "id":6,
+        "id":7,
         "title":"MurrayGarret Photography Website",
         "websiteName":" MurrayGarret Photography Website",
         "descrition":"Skills Used: HTML, CSS",
@@ -73,7 +85,7 @@
         "height":533
     },
     {
-        "id":7,
+        "id":8,
         "title":"Rampage",
         "websiteName":" Rampage",
         "descrition":"This was a big movie project. I worked on the front end team and we used a lot HTML,CSS and some JavaScript to built this beautiful website.",
