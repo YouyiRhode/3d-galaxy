@@ -7,7 +7,7 @@ $navHoverColor:grey;
 @mixin linkStyle {
   font-weight: 100;
   color: $navFontColor;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 .navContainer{
