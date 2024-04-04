@@ -88,9 +88,11 @@ $bgLight:#282f58;
             color: $FontColor;
         }
         p{
-            color: $letterColor;
             display: inline-block;
             margin-right: 10px;
+            a{
+                color: $letterColor;
+            }
         }
         button[type="submit"]{
             background-color: $FontColor;
