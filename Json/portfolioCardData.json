@@ -29,7 +29,7 @@
         "websiteName":" Match Game ",
         "descrition":" It's essentially a basic matching game.I've introduced features such as adjustable grid sizes, numbers along with their ranges, and the alphabet in both lowercase and uppercase",
         "tags":["#ReactJS"],
-        "thumbnail_img_src":"/matchGame.png",
+        "thumbnail_img_src":"/thumbnail_imgs/matchGame.png",
         "video_src":"",
         "url":"https://vivianrhode.github.io/theMatchGame/",
         "width":200,
