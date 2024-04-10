@@ -34,7 +34,7 @@ const Contact = () => {
                                     </h1>
                                     <div>
                                         <FontAwesomeIcon className={styles.icons} icon={faEnvelope} size="lg" color="white" fixedWidth/>
-                                        <p>Vivianrhode@gmail.com</p>
+                                        <p>vivianrhodee@gmail.com</p>
                                     </div>
                                     <div>
                                         <FontAwesomeIcon className={styles.icons} icon={faMobileAlt}  size="lg"  color="white" fixedWidth/>
